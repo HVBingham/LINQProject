@@ -19,8 +19,8 @@ namespace LINQ
             Console.ReadLine();
 
             List<string> names = new List<string>() { "Mike", "Brad", "Nevin", "Ian", "Mike" };
-            var oneOfEach = names.Distinct();
-            foreach(var name in oneOfEach)
+            var getNames = names.Distinct();
+            foreach(var name in getNames)
             {
                 Console.WriteLine(name);
             }
