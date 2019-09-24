@@ -17,6 +17,14 @@ namespace LINQ
                 Console.WriteLine(word);
             }
             Console.ReadLine();
+
+            List<string> names = new List<string>() { "Mike", "Brad", "Nevin", "Ian", "Mike" };
+            var oneOfEach = names.Distinct();
+            foreach(var name in oneOfEach)
+            {
+                Console.WriteLine(name);
+            }
+            Console.ReadLine();
         }
     }
 }
